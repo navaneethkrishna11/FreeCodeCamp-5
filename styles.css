@@ -1,0 +1,36 @@
+/* Add your CSS styles here */
+
+/* Styles for screens with a width of up to 768px */
+@media (max-width: 768px) {
+    #navbar {
+        position: static; /* Remove fixed positioning */
+    }
+
+    #navbar ul {
+        flex-direction: column; /* Stack navigation links vertically */
+        text-align: center;
+    }#navbar {
+    background-color: #333;
+    color: #fff;
+    position: fixed; /* Fixed positioning to keep it at the top */
+    top: 0;
+    width: 100%;
+}
+
+
+    #navbar li {
+        margin: 10px 0; /* Add vertical spacing between nav items */
+    }
+
+    #welcome-section {
+        height: auto; /* Allow welcome section to expand naturally */
+    }
+
+    #projects {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    .project-tile {
+        margin: 10px; /* Add spacing around project tiles */
+    }
+}
